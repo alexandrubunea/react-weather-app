@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&family=Source+Sans+Pro:wght@200&display=swap');
+
+input {
+    font-family: 'Source Sans Pro';
+    font-size: 32pt;
+    font-weight: 200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid rgb(224, 224, 224) 2px;
+    outline: none;
+    text-align: center;
+}
+
+.square {
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 20px;
+    height: 512px;
+}
+.square .title {
+    font-family: 'Source Sans Pro';
+    font-size: 32pt;
+    font-weight: 200;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.square .description {
+    margin-top: 40px;
+    font-family: 'Raleway';
+    font-size: 20pt;
+    font-weight: 100;
+    text-transform: uppercase;
+    display: block;
+}
+.square .description ul {
+    list-style: none;
+}
+.square .description ul li {
+    text-transform: lowercase;
+    font-size: 15pt;
+    font-weight: 200;
+}
+.square .fixedImg {
+    margin-top: 20px;
+    height: 128px;
+    width: 128px;
+}
