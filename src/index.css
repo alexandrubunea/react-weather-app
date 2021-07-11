@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&family=Source+Sans+Pro:wght@200&display=swap');
 
 input {
     font-family: 'Source Sans Pro';
@@ -26,12 +26,33 @@ input {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+.square .cityName {
+    font-family: 'Raleway';
+    font-size: 25pt;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 3px;
+}
+.square .cityName .coords {
+    font-family: 'Raleway';
+    font-size: 15pt;
+    font-weight: 100;
+    text-transform: lowercase;
+    display: block;
+}
 .square .description {
-    margin-top: 40px;
     font-family: 'Raleway';
     font-size: 20pt;
-    font-weight: 100;
+    font-weight: 200;
     text-transform: uppercase;
+    display: block;
+}
+.square .description .info {
+    font-family: 'Raleway';
+    font-size: 15pt;
+    font-weight: 100;
+    text-transform: lowercase;
     display: block;
 }
 .square .description ul {
@@ -40,10 +61,25 @@ input {
 .square .description ul li {
     text-transform: lowercase;
     font-size: 15pt;
-    font-weight: 200;
+    font-weight: 300;
 }
 .square .fixedImg {
-    margin-top: 20px;
     height: 128px;
     width: 128px;
+}
+.anotherSearch {
+    font-family: 'Source Sans Pro';
+    font-size: 25pt;
+    padding: 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 20px;
+}
+.searchInfo {
+    font-family: 'Raleway';
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 25pt;
+    margin-top: 20px;
 }

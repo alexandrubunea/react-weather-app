@@ -19,10 +19,14 @@ function App() {
     .catch(err => alert(err));
   }
 
+  function onClick() {
+    setWeather({});
+  }
+
   return (
     <>
       <Header weather_data={weather}/>
-      <Searchbox query={search} />
+      <Searchbox query={search} weather_data={weather} onClick={onClick}/>
     </>
   )
 }
