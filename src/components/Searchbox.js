@@ -15,7 +15,7 @@ const Searchbox = ({query, weather_data, onClick}) => {
     return (
         <>
           <div className="container" style={(typeof weather_data.main != 'undefined') ? {display: 'none'} : {display: 'grid'}}>
-            <div className="row">
+            <div className="row mt-5">
                 <input type="text" placeholder="Numele zonei" onKeyPress={on_key_press_enter} onChange={(e) => setText(e.target.value)}></input>
                 <span className="searchInfo">ATENȚIE: Pot fi introduse zone doar de pe teritoriul României!</span>   
             </div>    

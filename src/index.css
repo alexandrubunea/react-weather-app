@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&family=Source+Sans+Pro:wght@200&display=swap');
 
+body {
+    background-color: #e5e5e5;
+}
+
 input {
     font-family: 'Source Sans Pro';
     font-size: 32pt;
@@ -7,13 +11,15 @@ input {
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: solid rgb(224, 224, 224) 2px;
+    border-bottom: solid #404040;
     outline: none;
     text-align: center;
+    color: #404040;
+    background-color: #e5e5e5;
 }
 
 .square {
-    background-color: whitesmoke;
+    background-color: #fff;
     text-align: center;
     border-radius: 20px;
     height: 512px;
@@ -74,6 +80,7 @@ input {
     outline: 0;
     border: 0;
     border-radius: 20px;
+    background-color: #fff;
 }
 .searchInfo {
     font-family: 'Raleway';
